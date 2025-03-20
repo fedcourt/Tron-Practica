@@ -69,11 +69,13 @@ public partial class Form1 : Form
             MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
-
+    
     private void btnClear_Click(object sender, EventArgs e)
     {
         inventoryItems.Clear();
         UpdateInventoryList();
+        // Сообщение при очистке
+        MessageBox.Show("Очистка успешна");
     }
 
     private void UpdateInventoryList()
