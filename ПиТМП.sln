@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ПиТМП", "ПиТМП\ПиТМП.csproj", "{F2AC9B73-2D96-45E2-9C28-BE2F5B0748DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2AC9B73-2D96-45E2-9C28-BE2F5B0748DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AC9B73-2D96-45E2-9C28-BE2F5B0748DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AC9B73-2D96-45E2-9C28-BE2F5B0748DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AC9B73-2D96-45E2-9C28-BE2F5B0748DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {233E562D-2266-4298-875C-8F9550CCDB3C}
+	EndGlobalSection
+EndGlobal
