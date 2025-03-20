@@ -35,6 +35,8 @@ public partial class Form1 : Form
 
         item.AddStock(amount);
         UpdateInventoryList();
+        // Сообщение при добавлении товара
+        MessageBox.Show("Товар добавлен");
     }
 
     private void btnRemove_Click(object sender, EventArgs e)
