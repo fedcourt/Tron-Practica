@@ -19,7 +19,7 @@ public class InventoryItem
     public void AddStock(int amount)
     {
         if (amount < 0)
-            throw new ArgumentException("Отрицательное количество недопустимо.");
+            throw new ArgumentException("Количество не может быть отрицательным.");
 
         quantity += amount;
     }
@@ -28,7 +28,7 @@ public class InventoryItem
     public void RemoveStock(int amount)
     {
         if (amount < 0)
-            throw new ArgumentException("Отрицательное количество недопустимо.");
+            throw new ArgumentException("Количество не может быть отрицательным.");
 
         if (quantity >= amount)
         {
@@ -36,7 +36,7 @@ public class InventoryItem
         }
         else
         {
-            throw new InvalidOperationException("На складе недостаточно товара.");
+            throw new InvalidOperationException("Недостаточно товара на складе.");
         }
     }
 
