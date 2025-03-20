@@ -35,6 +35,8 @@ public partial class Form1 : Form
 
         item.AddStock(amount);
         UpdateInventoryList();
+        // Сообщение при добавлении товара
+        MessageBox.Show("Товар добавлен");
     }
 
     private void btnRemove_Click(object sender, EventArgs e)
@@ -69,11 +71,13 @@ public partial class Form1 : Form
             MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
-
+    
     private void btnClear_Click(object sender, EventArgs e)
     {
         inventoryItems.Clear();
         UpdateInventoryList();
+        // Сообщение при очистке
+        MessageBox.Show("Очистка успешна");
     }
 
     private void UpdateInventoryList()
